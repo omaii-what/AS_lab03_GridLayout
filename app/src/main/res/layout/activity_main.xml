@@ -25,25 +25,19 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#F5F5F5"
+        android:background="#FFFF"
         android:padding="16dp"
         android:layout_marginTop="16dp"
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal" >
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Сегодняшняя статистика"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="8dp" />
-
-        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="5"
+            android:textStyle="bold"
             android:textSize="24sp"
+            android:textColor="#4CAF50"
             android:layout_marginLeft="46dp"/>
 
         <TextView
@@ -51,6 +45,7 @@
             android:layout_height="wrap_content"
             android:text="Записей"
             android:textSize="14sp"
+            android:textColor="#808080"
             android:layout_marginLeft="24dp"/>
 
     </LinearLayout>
