@@ -1,4 +1,4 @@
-package com.example.as_lab03_gridlayout
+package com.example.lab03
 
 import android.os.Bundle
 import android.widget.Button
