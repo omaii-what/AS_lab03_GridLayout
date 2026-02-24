@@ -24,16 +24,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Сегодняшняя статистика"
+        android:text="📊 Сегодняшняя статистика"
         android:textStyle="bold"
         android:textSize="18sp" />
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:background="#FFFF"
-        android:padding="16dp"
+        android:paddingTop="16dp"
         android:layout_marginTop="16dp"
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal" >
@@ -43,23 +43,65 @@
         android:layout_height="wrap_content"
         android:text="5"
         android:textStyle="bold"
-        android:textSize="24sp"
+        android:textSize="32sp"
         android:textColor="#4CAF50"
         android:layout_marginLeft="46dp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.2"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:textColor="#2196F3"
+            android:layout_marginLeft="85dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="87%"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:textColor="#FF9800"
+            android:layout_marginLeft="70dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Записей"
-        android:textSize="14sp"
-        android:textColor="#808080"
-        android:layout_marginLeft="24dp"/>
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Записей"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginLeft="36dp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Настроение"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginLeft="48dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Активность"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginLeft="36dp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="0dp"
-        android:layout_height="2dp"
+        android:layout_height="3dp"
         android:background="#4CAF50"
         android:layout_marginTop="24dp"
         android:layout_columnSpan="2"
@@ -76,6 +118,7 @@
         android:gravity="center"
         android:backgroundTint="#4CAF50"
         android:layout_margin="8dp"
+        android:layout_marginRight="200dp"
         android:layout_columnWeight="1"
         android:layout_gravity="fill" />
 
@@ -88,6 +131,7 @@
         android:gravity="center"
         android:backgroundTint="#2196F3"
         android:layout_margin="8dp"
+        android:layout_marginLeft="-180dp"
         android:layout_columnWeight="1"
         android:layout_gravity="fill" />
 
@@ -100,20 +144,23 @@
         android:gravity="center"
         android:backgroundTint="#FF9800"
         android:layout_margin="8dp"
+        android:layout_marginRight="200dp"
         android:layout_columnWeight="1"
         android:layout_gravity="fill" />
 
     <Button
         android:id="@+id/settingsButton"
-        android:layout_width="0dp"
+        android:layout_width="48dp"
         android:layout_height="150dp"
-        android:text="Настройки"
-        android:textSize="18sp"
-        android:gravity="center"
-        android:backgroundTint="#9C27B0"
-        android:layout_margin="8dp"
         android:layout_columnWeight="1"
-        android:layout_gravity="fill" />
+        android:layout_gravity="fill"
+        android:layout_margin="8dp"
+        android:layout_marginLeft="-180dp"
+
+        android:backgroundTint="#9C27B0"
+        android:gravity="center"
+        android:text="Настройки"
+        android:textSize="18sp" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -146,4 +193,4 @@
         android:textSize="14sp" />
 
     </LinearLayout>
-</GridLayout
+</GridLayout>
