@@ -45,7 +45,7 @@
         android:textStyle="bold"
         android:textSize="32sp"
         android:textColor="#4CAF50"
-        android:layout_marginLeft="46dp" />
+        android:layout_marginLeft="56dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -54,7 +54,7 @@
             android:textStyle="bold"
             android:textSize="32sp"
             android:textColor="#2196F3"
-            android:layout_marginLeft="85dp" />
+            android:layout_marginLeft="95dp" />
 
         <TextView
             android:layout_width="wrap_content"
